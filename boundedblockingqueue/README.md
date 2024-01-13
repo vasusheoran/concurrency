@@ -7,7 +7,7 @@ A simple implementation of a bounded blocking queue in Golang. This package prov
 ### Importing the Package
 
 ```go
-import "github.com/yourusername/boundedblockingqueue"
+import "github.com/vasusheoran/concurrency/boundedblockingqueue"
 ```
 
 ### Creating a Bounded Blocking Queue
@@ -37,7 +37,3 @@ This implementation utilizes the `sync.Mutex` and `sync.Cond` primitives from th
 ## Contributing
 
 Feel free to contribute, report issues, or suggest improvements. Your feedback is highly valued!
-
----
-
-Remember to replace `"YourItem"` with the actual item you want to enqueue in the code examples. Adjust the import path (`github.com/yourusername/boundedblockingqueue`) based on your GitHub repository location.
