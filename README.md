@@ -7,6 +7,9 @@ Welcome to the Concurrency Playground repository! 🚀 This collection of Golang
 1. **Bounded Blocking Queue**
    - Implementation of a thread-safe, bounded blocking queue.
    - [Bounded Blocking Queue](boundedblockingqueue/README.md)
+2. **Rides Project**
+   - Simulates a scenario where Democrats and Republicans are ordering Uber rides, with specific conditions to avoid conflicts.
+   - [Rides Project](rides/README.md)
 
 ## Usage
 
