@@ -10,14 +10,16 @@ Welcome to the Concurrency Playground repository! 🚀 This collection of Golang
 2. **Rides Project**
    - Simulates a scenario where Democrats and Republicans are ordering Uber rides, with specific conditions to avoid conflicts.
    - [Rides Project](rides/README.md)
+3. **BuildingH2O (NEW)**
+   - Demonstrates concurrent molecule creation using Go routines and synchronization primitives.
+   - [BuildingH2O](buildingh2o/README.md)
 
 ## Usage
 
-### Clone the Repository
+### Import module
 
 ```bash
-git clone https://github.com/vasusheoran/concurrency.git
-cd concurrency
+go get -u github.com/vasusheoran/concurrency@latest
 ```
 
 ### Explore Sub-Projects
