@@ -4,19 +4,21 @@ Welcome to the Concurrency Playground repository! 🚀 This collection of Golang
 
 ## Projects
 
-1. **Bounded Blocking Queue**
-   - Implementation of a thread-safe, bounded blocking queue.
-   - [Bounded Blocking Queue](boundedblockingqueue/README.md)
-2. **Rides Project**
-   - Simulates a scenario where Democrats and Republicans are ordering Uber rides, with specific conditions to avoid conflicts.
-   - [Rides Project](rides/README.md)
-3. **BuildingH2O (NEW)**
-   - Demonstrates concurrent molecule creation using Go routines and synchronization primitives.
-   - [BuildingH2O](buildingh2o/README.md)
+1. **[Bounded Blocking Queue](boundedblockingqueue/README.md)**
+   - A thread-safe, bounded blocking queue implementation for managing tasks in a concurrent environment. (**Difficulty:** Medium)
+   - [Leetcode Challenge](https://leetcode.com/problems/design-bounded-blocking-queue/)
+2. **[Rides](rides/README.md)**
+   - Simulates a scenario where Democrats and Republicans order Uber rides, considering specific conditions to prevent conflicts. (**Difficulty:** Hard)
+3. **[BuildingH2O](buildingh2o/README.md)**
+   - Demonstrates concurrent molecule creation using Go routines and synchronization primitives, simulating the formation of water molecules (H2O). (**Difficulty:** Medium)
+   - [Leetcode Challenge](https://leetcode.com/problems/building-h2o/)
+4. **[Dining Philosophers](diningphilosopher/README.md)**
+   - Implements the classic Dining Philosophers problem using Go concurrency features, exploring synchronization techniques for resource sharing. (**Difficulty:** Medium)
+   - [Leetcode Challenge](https://leetcode.com/problems/the-dining-philosophers/)
 
 ## Usage
 
-### Import module
+### Import concurrency module
 
 ```bash
 go get -u github.com/vasusheoran/concurrency@latest
